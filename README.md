@@ -40,4 +40,4 @@ package.json
 - Curso: ADSO - React
 
 ## Link del proyecto
-[Ver proyecto en GitHub Pages]()
+[Ver proyecto en GitHub Pages]( https://juanpenagos007-dotcom.github.io/taller2-react/)
