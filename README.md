@@ -1,16 +1,43 @@
-# React + Vite
+# Taller 2 - Proyecto React y Github
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
+Este proyecto es el Taller 2 del módulo React.  
+Se trata de un CRUD visual de productos, con navbar, rutas, responsive y componentes React.
 
-Currently, two official plugins are available:
+## Características principales
+- Navbar funcional con rutas (Inicio / Props)
+- Componente de productos con cards e imágenes
+- Diseño responsive con Bootstrap
+- Uso de props para pasar datos a componentes
+- Formulario lateral para agregar productos (solo visual por ahora)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Interfaz gráfica
+- Layout tipo grid: 8 columnas para productos, 4 columnas para el formulario
+- Cards de productos con imagen, nombre, categoría y precio
+- Botones Editar y Eliminar en cada card
+- Navbar con links funcionales
 
-## React Compiler
+## Arquitectura del proyecto src/
+App.jsx
+components/
+Header.jsx
+Footer.jsx
+Content.jsx
+Props.jsx
+Card.jsx
+index.css
+public/
+images/
+productos/
+auriculares.jpg
+teclado.jpg
+mouse.jpg
+monitor.jpg
+package.json  
+## Datos importantes del Autor
+- Nombre: Juan Benitez
+- Fecha: 20/02/2026
+- Curso: ADSO - React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Link del proyecto
+[Ver proyecto en GitHub Pages]()
