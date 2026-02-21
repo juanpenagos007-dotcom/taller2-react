@@ -8,28 +8,28 @@ export const Content = () => {
       nombre: "Auriculares Bluetooth",
       precio: 159900,
       categoria: "Audio",
-      imagen: " /img/auriculares-bluetooth.jpg"
+      imagen: "/taller2-react/img/auriculares-bluetooth.jpg"
     },
     {
       id: 2,
       nombre: "Teclado Mecánico",
       precio: 249000,
       categoria: "Periféricos",
-      imagen: "/img/teclado-mecanico.jpg"
+      imagen: "/taller2-react/img/teclado-mecanico.jpg"
     },
     {
       id: 3,
       nombre: "Mouse Gamer",
       precio: 99000,
       categoria: "Periféricos",
-      imagen: "/img/mouse-gamer.jpg"
+      imagen: "/taller2-react/img/mouse-gamer.jpg"
     },
     {
       id: 4,
       nombre: "Monitor 24''",
       precio: 580000,
       categoria: "Pantallas",
-      imagen: "/img/monitor-24.jpg"
+      imagen: "taller2-react/img/monitor-24.jpg"
     }
   ];
 
